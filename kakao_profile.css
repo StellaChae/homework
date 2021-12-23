@@ -1,0 +1,84 @@
+.container {
+    width: 480px;
+    height: 800px;
+
+    border: 1px solid lightgrey;
+    margin: auto;
+    position: relative;
+
+}
+
+.pink_box {
+    height: 500px;
+    background-color: lightpink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    color: skyblue;
+    margin-bottom: 15px;
+}
+
+.profile_message {
+    color: white;
+    text-align: center;
+}
+
+.image {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 10px;
+}
+
+.white_box {
+    height: 300px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.name {
+    padding-top: 50px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.chat-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.kas_icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.selfie {
+    width: 150px;
+    height: 150px;
+    top: 430px;
+    left: 165px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+}
